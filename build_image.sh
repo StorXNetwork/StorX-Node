@@ -1,1 +1,1 @@
-docker build dockerfiles -t teststorx:latest
+docker build dockerfiles -t storxnetwork/storxnode:latest

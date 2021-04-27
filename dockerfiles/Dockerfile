@@ -13,4 +13,4 @@ RUN export STORJ_NETWORK=STORX && \
     npm i && npm link
 
 EXPOSE 45678
-ENTRYPOINT [ "/work/start-node.sh"]
+ENTRYPOINT ["bash", "/work/start-node.sh"]
