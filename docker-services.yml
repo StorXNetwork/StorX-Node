@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  storxnetwork:
+    image: teststorx:latest
+    volumes:
+      - "./storxdata:/work/storxdata"
+      - "./start-node.sh:/work/start-node.sh"
+      - "/etc/localtime:/etc/localtime:ro"
+    restart: "always"
+    env_file: .env
+    tty: true
+    ports:
+      - "45678:45678"
