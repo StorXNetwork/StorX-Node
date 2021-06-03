@@ -8,7 +8,7 @@ RUN apt-get update && apt-get update && apt-get -y install --no-install-recommen
     && apt-get install -y nodejs
 
 RUN export STORJ_NETWORK=STORX && \
-    git clone https://github.com/StorXtech/core-daemon && \
+    git clone https://github.com/StorXNetwork/core-daemon && \
     cd core-daemon && \
     npm i && npm link
 
