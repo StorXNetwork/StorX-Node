@@ -5,6 +5,7 @@ INSTANCE_IP=$(curl https://checkip.amazonaws.com)
 STORXDATA=/work/storxdata 
 mkdir "$STORXDATA"/config
 mkdir "$STORXDATA"/logs
+mkdir "$STORXDATA"/data
 CONFIGPATH="$STORXDATA"/config/storx_"$INSTANCE_IP".json
 xcore daemon 
 
@@ -12,7 +13,7 @@ xcore daemon
 if [ ! -e "$CONFIGPATH" ]	
 then
   echo "Creating StorX Nodes ..."
-  xcore create --storx "$WALLETADD" --storage "$STORXDATA" --size 1TB --rpcport 45678 --rpcaddress "$INSTANCE_IP" --noedit --outfile "$CONFIGPATH" --logdir "$STORXDATA"/logs
+  xcore create --storx "$WALLETADD" --storage "$STORXDATA"/data --size 1TB --rpcport 45678 --rpcaddress "$INSTANCE_IP" --noedit --outfile "$CONFIGPATH" --logdir "$STORXDATA"/logs
 fi
 
 
