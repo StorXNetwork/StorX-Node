@@ -19,7 +19,7 @@ function configureNode(){
     echo "Clone StorX Node"
 
     git clone https://github.com/StorXNetwork/StorX-Node && cd StorX-Node
-    sed -i "s/WALLETADD=WALLETADD/INSTANCE_NAME=${WALLETADD}/g" .env
+    sed -i "s/WALLETADD=WALLETADD/WALLETADD=${WALLETADD}/g" .env
 
 
     echo "Installing Docker"
@@ -45,6 +45,7 @@ function configureNode(){
     echo "Docker Compose Installed successfully"
 
     sudo docker-compose -f docker-services.yml up -d
+
 
 
 }
