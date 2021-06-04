@@ -19,7 +19,7 @@ fi
 
 export STORJ_NETWORK=STORX
 xcore daemon --status
-echo "Starting StorX Nodes ...."
+echo "Starting StorX Nodes ....."
 xcore start --config "$CONFIGPATH" 
 while true; do sleep 1000; done
 
