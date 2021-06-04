@@ -8,9 +8,9 @@ RUN apt-get update && apt-get update && apt-get -y install --no-install-recommen
     && apt-get install -y nodejs
 
 RUN export STORJ_NETWORK=STORX && \
-    git clone https://github.com/StorXNetwork/core-daemon && \
+    git clone https://github.com/StorXNetwork/core-daemon   && \
     cd core-daemon && \
     npm i && npm link
 
-EXPOSE 45678
+EXPOSE 50505 50506 50508 50509 50510
 ENTRYPOINT ["bash", "/work/start-node.sh"]
