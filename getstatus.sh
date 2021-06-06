@@ -1,0 +1,1 @@
+sudo docker exec -it storx-node_storxnetwork_1 xcore status
