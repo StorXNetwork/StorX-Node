@@ -107,6 +107,10 @@ To stop the node or if you encounter any issues use::
 ```
 ---------------------------------
 
+**Step 4: Stake SRX token**
+
+After setting up FarmNode/StorageNode please Stake SRX token from the URL : https://farmer.storx.io/
+
 ## Troubleshooting
 
 
