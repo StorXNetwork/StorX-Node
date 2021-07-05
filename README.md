@@ -47,7 +47,7 @@ The storage operations on  Farmer/Storage Node on StorX were benchmarked on stan
 
 **Method 1:- Setup STORX Farmer node Bootstrap Script**
 
-Bootstrap Command XinFin Node Setup :- 
+Bootstrap Command STORX Node Setup :- 
 ```
     sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/StorXNetwork/StorX-Node/main/bootstrap.sh)" root 
 ```
