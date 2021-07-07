@@ -53,7 +53,6 @@ Bootstrap Command STORX Node Setup :-
 ```
 Examples :- 
 ```
-    sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/StorXNetwork/StorX-Node/main/bootstrap.sh)" root
     root……..:~# sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/StorXNetwork/StorX-Node/main/bootstrap.sh)" root
     Please enter your XDC Address for StorX Rewards:- xdc……
 ```
