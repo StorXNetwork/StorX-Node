@@ -133,5 +133,6 @@ To check the status of your node:
 How to upgrade your storx node with latest changes?
 
 ```
+    git pull
     sudo bash ./upgrade.sh
 ```
