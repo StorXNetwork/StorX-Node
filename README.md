@@ -112,16 +112,6 @@ After setting up FarmNode/StorageNode please Stake SRX token from the URL : http
 
 IMP Note : You have to stake SRX token to get hosting and staking rewards.
 
-## Troubleshooting
-
-
-Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions. 
-
-- [Telegram](https://t.me/StorXNetwork)- Stay updated with all the Announcements.
-- [Discord](https://discord.gg/ha4Jufj2Nm) - Join the community to find answers to all your questions.
-- [Reddit](https://www.reddit.com/r/StorXNetwork) - Join the channel to have a healthy interaction with the community.
-- [GitHub](https://github.com/StorXNetwork) - Join the developers community on GitHub
-
 ## How to Check Status
 To check the status of your node:
 
@@ -136,3 +126,13 @@ How to upgrade your storx node with latest changes?
     git pull
     sudo bash ./upgrade.sh
 ```
+
+## Troubleshooting
+
+
+Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions. 
+
+- [Telegram](https://t.me/StorXNetwork)- Stay updated with all the Announcements.
+- [Discord](https://discord.gg/ha4Jufj2Nm) - Join the community to find answers to all your questions.
+- [Reddit](https://www.reddit.com/r/StorXNetwork) - Join the channel to have a healthy interaction with the community.
+- [GitHub](https://github.com/StorXNetwork) - Join the developers community on GitHub
