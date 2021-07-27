@@ -122,4 +122,16 @@ Public discussions on the technical issues, post articles and request for Enhanc
 - [Reddit](https://www.reddit.com/r/StorXNetwork) - Join the channel to have a healthy interaction with the community.
 - [GitHub](https://github.com/StorXNetwork) - Join the developers community on GitHub
 
+## How to Check Status
+To check the status of your node:
 
+```
+    sudo bash ./getstatus.sh
+```
+
+## How to Upgrade
+How to upgrade your storx node with latest changes?
+
+```
+    sudo bash ./upgrade.sh
+```
