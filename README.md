@@ -81,7 +81,7 @@ Enter StorX-Node directory
 
 **Step 1: Install docker & docker-compose**
 ```
-    sudo ./install_docker.sh
+    sudo bash ./install_docker.sh
 ```
 **Step 2: Update .env file with details**
 - Create `.env` file by using the sample - `.env.example`
