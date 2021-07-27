@@ -119,7 +119,7 @@ To check the status of your node:
     sudo bash ./getstatus.sh
 ```
 
-## How to Upgrade
+## How to Upgrade your Storx Farmer Node
 How to upgrade your storx node with latest changes?
 
 ```
