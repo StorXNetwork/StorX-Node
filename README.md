@@ -1,7 +1,7 @@
 # StorX Farmer Node
-**Run a Farmer/Storage Node on Storx Network**
+**Run a Farmer/Storage Node on StorX Network**
 
-This guide will instruct you how to set up Farmer/Storage Node on StorX Network
+This guide will instruct you how to set up Farmer/Storage Node on the StorX Network
 
 **Preliminaries**
 - Running a Storage Node on a live network is a responsible job. The credibility of the complete network depends upon the performance of Farmer/Storage Nodes. 
@@ -27,7 +27,7 @@ Any SRX that you stake for Farmer/Storage Node on StorX Network is liable to be 
 
 The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever VPS provider that you prefer, and whatever operating system you are comfortable with. For this guide we will be using Ubuntu 20.04 64-bit or higher, but the instructions should be similar for other platforms.
 
-The storage operations on  Farmer/Storage Node on StorX were benchmarked on standard hardware. It is recommended that you run at least the standard hardware in order to ensure they are able to process all storage requirements. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issues.
+The storage operations in Farmer/Storage Node on StorX were benchmarked on standard hardware. It is recommended that you run at least the standard hardware in order to ensure they are able to process all storage requirements. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issues.
 
 - One Processor Core
 - Minimum 1 TB of available disk space
@@ -43,11 +43,11 @@ The storage operations on  Farmer/Storage Node on StorX were benchmarked on stan
 
 ---
 
-# How to Setup STORX Farmer node
+# How to Setup StorX Farmer node
 
-**Method 1:- Setup STORX Farmer node Bootstrap Script**
+**Method 1:- Setup StorX Farmer node Bootstrap Script**
 
-Bootstrap Command STORX Node Setup :- 
+Bootstrap Command StorX Node Setup :- 
 ```
     sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/StorXNetwork/StorX-Node/main/bootstrap.sh)" root 
 ```
@@ -58,12 +58,12 @@ Examples :-
 ```
 ------
 
-**Method 2:- Setup STORX Farmer Node Docker**
+**Method 2:- Setup StorX Farmer Node Docker**
 
 - **Operating System**: Ubuntu 20.04 64-bit or higher
 Should be facing internet directly with **public IP** & **without NAT**
 
-- **Tools**: Docker, Docker Compose(1.29.2+)
+- **Tools**: Docker, Docker Compose (1.29.2+)
 Setup (For Ubuntu 20.04 64-bit or higher Operating System)
 
 ---------------------------------
@@ -93,7 +93,7 @@ Enter StorX-Node directory
 
 **Step 3: Start your Node**
 
-**For Mainnet**
+**For MainNet**
 Run:
 ```
     sudo docker-compose -f docker-services.yml up -d
@@ -119,12 +119,45 @@ To check the status of your node:
     sudo bash ./getstatus.sh
 ```
 
-## How to Upgrade your Storx Farmer Node
-How to upgrade your storx node with latest changes?
+## How to Upgrade your StorX Farmer Node
+How to upgrade your StorX node with the latest changes?
 
 ```
     git pull
     sudo bash ./upgrade.sh
+```
+
+## How to change a node's wallet address
+
+```
+    cd StorX-Node
+```
+
+Get the current (i.e. Old) wallet address that you want to update:
+```
+    sed -n 's/^WALLETADD=*//p' .env
+```
+
+Update the wallet address (copy the old one from the CLI response above):
+
+```
+    sed -i 's/OldWalletAddress/NewWalletAddress/g' .env
+```
+
+Replace OldWalletAddress and NewWalletAddress above with your actual old and new wallet addresses
+
+Re-start the StorX Node app (as described in the previous sections)
+
+```
+    sudo docker-compose -f docker-services.yml down
+    sudo docker-compose -f docker-services.yml up -d
+
+```
+
+Finally, if desired, you can check the node status (as described in the previous sections)
+
+```
+    sudo bash ./getstatus.sh
 ```
 
 ## Troubleshooting
@@ -132,7 +165,7 @@ How to upgrade your storx node with latest changes?
 
 Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions. 
 
-- [Telegram](https://t.me/StorXNetwork)- Stay updated with all the Announcements.
+- [Telegram](https://t.me/StorXNetwork) - Stay updated with all the Announcements.
 - [Discord](https://discord.gg/ha4Jufj2Nm) - Join the community to find answers to all your questions.
 - [Reddit](https://www.reddit.com/r/StorXNetwork) - Join the channel to have a healthy interaction with the community.
 - [GitHub](https://github.com/StorXNetwork) - Join the developers community on GitHub
