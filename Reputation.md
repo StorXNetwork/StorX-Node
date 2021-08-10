@@ -1,5 +1,5 @@
 
-**StorX - Node Reputation:  AI-based Algorithm Explained **
+**StorX - Node Reputation:  AI-based Algorithm Explained**
 
 If you are keen on putting your unused disk space to work, contributing to building the future of cloud storage, and getting paid as well, StorX node ownership provides you an opportunity.
 A decentralized cloud storage solution powered by XinFin (XDC) blockchain network, StorX facilitates secure encryption, fragmentation, and then distribution of data across multiple nodes hosted globally. This allows anyone to set up a node in the network and earn native SRX token.
