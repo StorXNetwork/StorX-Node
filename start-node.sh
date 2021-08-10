@@ -2,7 +2,7 @@
 echo "A StorX Nodes ..."
 
 INSTANCE_IP=$(curl https://checkip.amazonaws.com)
-STORXDATA=/work/storxdata 
+STORXDATA="$PWD"/work/storxdata
 CONFIGPATH="$STORXDATA"/config/storx_"$INSTANCE_IP".json
 xcore daemon 
 
