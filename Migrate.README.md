@@ -65,8 +65,6 @@ Will ask you to enter the following:
 
 Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions. 
 
-- [My GitHub](https://github.com/kasiimh1) - Make an issue or submit a Pull Request.
-
 - [Telegram](https://t.me/StorXNetwork) - Stay updated with all the Announcements.
 - [Discord](https://discord.gg/ha4Jufj2Nm) - Join the community to find answers to all your questions.
 - [Reddit](https://www.reddit.com/r/StorXNetwork) - Join the channel to have a healthy interaction with the community.
