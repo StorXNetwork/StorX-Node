@@ -5,7 +5,7 @@
 - Already running and staked node: instructions found below if not already setup: 
 
 ```
-  https://github.com/StorXNetwork/StorX-Node/blob/main/README.md. 
+  https://github.com/StorXNetwork/StorX-Node/blob/main/README.md 
   ```
 
 - Mutilple VPS's, the source staked node and the destination node. 
