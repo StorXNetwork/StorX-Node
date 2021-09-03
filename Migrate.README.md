@@ -24,7 +24,7 @@
 
 Bootstrap Command StorX Node Migration from Github:- 
 ```
-    sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/kasiimh1/StorX-Node/main/migrate-tool.sh)" root 
+    sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/StorXNetwork/StorX-Node/main/migrate-tool.sh)" root 
 ```
 
 Execute the script by running the command below:
