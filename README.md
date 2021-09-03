@@ -160,6 +160,11 @@ Finally, if desired, you can check the node status (as described in the previous
     sudo bash ./getstatus.sh
 ```
 
+## How to Migrate your StorX Farmer Node
+How to Migrate your StorX node to another VPS?
+
+https://github.com/StorXNetwork/StorX-Node/blob/main/Migrate.README.md
+
 ## Troubleshooting
 
 
