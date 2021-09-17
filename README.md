@@ -165,6 +165,10 @@ How to Migrate your StorX node to another VPS?
 
 https://github.com/StorXNetwork/StorX-Node/blob/main/Migrate.README.md
 
+## Fix 'hostname: Name or service not known' on Liteserver
+
+``` sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/StorXNetwork/StorX-Node/main/Liteserver-hostnames-fix.sh)" root ```
+
 ## Troubleshooting
 
 
