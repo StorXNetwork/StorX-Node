@@ -127,39 +127,6 @@ How to upgrade your StorX node with the latest changes?
     sudo bash ./upgrade.sh
 ```
 
-## How to change a node's wallet address
-
-```
-    cd StorX-Node
-```
-
-Get the current (i.e. Old) wallet address that you want to update:
-```
-    sed -n 's/^WALLETADD=*//p' .env
-```
-
-Update the wallet address (copy the old one from the CLI response above):
-
-```
-    sed -i 's/OldWalletAddress/NewWalletAddress/g' .env
-```
-
-Replace OldWalletAddress and NewWalletAddress above with your actual old and new wallet addresses
-
-Re-start the StorX Node app (as described in the previous sections)
-
-```
-    sudo docker-compose -f docker-services.yml down
-    sudo docker-compose -f docker-services.yml up -d
-
-```
-
-Finally, if desired, you can check the node status (as described in the previous sections)
-
-```
-    sudo bash ./getstatus.sh
-```
-
 ## Troubleshooting
 
 
