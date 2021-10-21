@@ -1,4 +1,5 @@
 # StorX Farmer Node
+
 **Run a Farmer/Storage Node on StorX Network**
 
 This guide will instruct you how to set up Farmer/Storage Node on the StorX Network
@@ -8,16 +9,31 @@ This guide will instruct you how to set up Farmer/Storage Node on the StorX Netw
 - If there are any issues the possibility of your node getting slashed. 
 - To compensate for the efforts, running a community memes are rewarded with SRX Tokens, knowing that you contribute to the security of a decentralized network while growing your stash.
 
-
 If you need help, please reach out on the [Community Page](https://storx.tech/support.html). The community members are there to help answer questions and provide tips from experience.
+
+------
 
 **How many SRX (StorX Native Tokens) do I need?**
 
-To qualify for Farmer/Storage Node on StorX Network, you need between **1000 - 1 Million SRX,** with the existential deposit, plus **XDC for transaction fees.**
+To qualify for Farmer/Storage Node on StorX Network, you need between **6000 - 1 Million SRX,** with the existential deposit, plus **XDC for transaction fees.**
+
+**Note: The minimum staking amount will be updated as per the new incremental model from 03/08/2021 onwards. [Refer](https://medium.com/storx-network/storx-farm-node-minimum-staking-increment-model-to-avoid-srx-token-inflation-7a343cf89401)**
+
+-----
+
+We requests Storage Node operators to maintain Good Node Reputation to ensure StorX Ecosystem works perfectly.
+
+**Tips for maintaining a Good Node Reputation:**
+- Ensure Strong Cloud Infrastructure.
+- Higher SRX Stake adds value to “Good” Node Reputation.
+- Ensure 100% uptime.
+- Always ensure nodes maintain the latest software patch and OS updates.
+
 
 **Warning:**
 
-Any SRX that you stake for Farmer/Storage Node on StorX Network is liable to be slashed, meaning that an insecure or improper setup may result in loss of reputation leading to slashing of Farmer/Storage Node on StorX Network.
+- Underperformance can lead to disqualification of nodes, which can lead to No ‘hosting and staking rewards’. Repeated low reputation can lead to a penalty; Staked SRX might be burned as a penalty as it may harm StorX Storage Network.
+- Any SRX that you stake for Farmer/Storage Node on StorX Network is liable to be slashed, meaning that an insecure or improper setup may result in loss of reputation leading to slashing of Farmer/Storage Node on StorX Network.
 
 -----
 
