@@ -3,8 +3,6 @@ echo "Fetching Distro Updates & Upgrades"
 apt update 
 apt upgrade -y 
 apt dist-upgrade -y 
-echo "Entering StorX-Node Folder"
-cd StorX-Node
 echo "Upgrading StorX Network Configuration Scripts"
 git pull
 echo "Upgrading Docker Images"
