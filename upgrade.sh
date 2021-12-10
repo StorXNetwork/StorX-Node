@@ -3,6 +3,8 @@ echo "Fetching Distro Updates & Upgrades"
 apt update 
 apt upgrade -y 
 apt dist-upgrade -y 
+echo "Removing unused files that were automatically installed!"
+apt autoremove -y
 echo "Upgrading StorX Network Configuration Scripts"
 git pull
 echo "Upgrading Docker Images"
