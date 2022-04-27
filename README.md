@@ -146,11 +146,11 @@ How to upgrade your StorX node with the latest changes?
 ## How to Migrate your StorX Farmer Node
 How to Migrate your StorX node to another VPS?
 
-https://github.com/StorXNetwork/StorX-Node/blob/main/Migrate.README.md
+https://github.com/kasiimh1/StorX-Node/blob/main/Migrate.README.md
 
 ## Fix 'hostname: Name or service not known' on Liteserver
 
-``` sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/StorXNetwork/StorX-Node/main/Liteserver-hostnames-fix.sh)" root ```
+``` sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/kasiimh1/StorX-Node/main/Liteserver-hostnames-fix.sh)" root ```
 
 ## Troubleshooting
 
