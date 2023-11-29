@@ -45,12 +45,15 @@ The most common way for a beginner to run a validator is on a cloud server runni
 
 The storage operations in Farmer/Storage Node on StorX were benchmarked on standard hardware. It is recommended that you run at least the standard hardware in order to ensure they are able to process all storage requirements. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issues.
 
-- One Processor Core
-- Minimum 1 TB of available disk space
+- Six Processor Core
+- RAM 8 GB (16 GB Recommended)
+- Minimum HDD 1 TB SSD / NVME Recommended
 - Minimum 10 TB of available bandwidth a month
 - Minimum upload speed of 25 MBPS
 - Minimum download speed of 25 MBPS
 - Ensure Node availability 24/7
+
+**Note: The Node requirements keep changing as the Network evolves.**
 
 **Key Management**
 
